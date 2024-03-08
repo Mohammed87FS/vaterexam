@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #151736;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: larger;
+}
+
+.quiz-container {
+    width: 100%;
+    max-width: 600px;
+    background: rgb(24, 38, 88);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+    
+}
+#search-input {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+     background-color: #003a77;
+    border-radius: 4px;
+    width: calc(100% - 100px);
+    display: inline-block;
+}
+
+#search-button {
+    width: 80px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #307dcf;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+.question-container h2 {
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.answers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.answers-container div {
+    background: rgb(20, 32, 75);
+    padding: 20px;
+    
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fafafa;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.answers-container div:hover {
+    background-color: #151539;
+    color:white;
+}
+
+.btn {
+    background-color: #0056b3;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #004289;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+
+.feedback-message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    animation: fadeIn 0.5s;
+}
+
+.correct {
+    background-color: #4CAF50; /* Green background for correct answers */
+}
+
+.incorrect {
+    background-color: #6d1c17; /* Red background for incorrect answers */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
