@@ -10,18 +10,38 @@ body {
 }
 
 .quiz-container {
-    width: 100%;
+    width: 90%; /* Adjusted for better responsiveness */
     max-width: 600px;
     background: rgb(24, 38, 88);
     border: 1px solid rgb(204, 204, 204);
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 40px;
+    padding: 20px; /* Adjusted padding */
     text-align: center;
-    
     color: rgb(255, 255, 255);
-    
 }
+
+/* Remaining CSS... */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .answers-container {
+        grid-template-columns: 1fr; /* Stack answers vertically on smaller screens */
+    }
+    
+    #search-input, #search-button {
+        width: auto; /* Adjust width for smaller devices */
+        margin-top: 10px; /* Reduce margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        width: 100%; /* Full-width buttons on very small screens */
+        margin-top: 10px; /* Reduce margin */
+    }
+}
+
 #search-input {
     padding: 10px;
     margin-top: 20px;
