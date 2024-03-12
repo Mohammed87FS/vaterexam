@@ -90,8 +90,9 @@ body {
     margin-top: 20px;
 }
 
+
 .answers-container div {
-    background: rgb(20, 32, 75);
+
     padding: 5px;
     border: 1px solid var(--border-color);
     border-radius: 5px;
@@ -100,10 +101,10 @@ body {
     font-weight: 500;
 }
 
-.answers-container div:hover {
+/* .answers-container div:hover {
     background-color: #151539;
     color: white;
-}
+} */
 
 .btn {
     background-color: var(--button-bg-color);
@@ -143,4 +144,8 @@ body {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+.selected-answer {
+    background-color: #9a4105; /* Or any color you prefer */
+    color: #ffffff; /* Adjust text color as needed */
 }
