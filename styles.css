@@ -24,7 +24,7 @@ body {
 }
 
 .quiz-container {
-    width: 90%;
+    width: 85%;
     max-width: 600px;
     background: var(--container-bg-color);
     border: 1px solid var(--border-color);
@@ -92,7 +92,7 @@ body {
 
 .answers-container div {
     background: rgb(20, 32, 75);
-    padding: 20px;
+    padding: 5px;
     border: 1px solid var(--border-color);
     border-radius: 5px;
     cursor: pointer;
