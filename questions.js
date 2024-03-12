@@ -100,7 +100,7 @@ export const questions = [
         correct: 3
     },
     {
-        question: "werden. Was müssen Sie tun, um das Fahrzeug abschleppen zu können?",
+        question: "Ihr Fahrzeug hat einen technischen Defekt an der Druckluftbremsanlage. Die Federspeicherbremse kann wegen eines zu geringen Vorratsdrucks nicht mehr gelöst werden. Was müssen Sie tun, um das Fahrzeug abschleppen zu können?",
         answers: ["Ich muss den Federspeicher mechanisch oder durch Fremdbelüften lösen", "Nichts, weil das Fahrzeug immer abgeschleppt werden kann", "Ich muss die Antriebsräder abmontieren", "Ich muss die Zuluftleitung am Federspeicherbremszylinder abschließen"],
         correct: 0
     },
@@ -181,12 +181,12 @@ export const questions = [
     },
     {
         question: "Was verstehen Sie unter dem \"Einschaltdruck\" einer Druckluftbremsanlage?",
-        answers: ["Das ist der Druck, bei dem der Druckregler die vom Kompressor geförderte Luft ins Freie", "lässt", "Das ist der Druck, bei dem der Druckregler die vom Kompressor geförderte Luft wieder in", "die Luftbehälter lässt"],
+        answers: ["Das ist der Druck, bei dem der Druckregler die vom Kompressor geförderte Luft ins Freie lässt", "Das ist der Druck, bei dem der Druckregler die vom Kompressor geförderte Luft wieder in die Luftbehälter lässt"," Das ist der Druck, bei dem der Druckregler das Abblaseventil einschaltet"],
         correct: 1
     },
     {
         question: "Was verstehen Sie unter dem \"Sicherungsdruck\" einer Druckluftbremsanlage?",
-        answers: ["Das ist jener Druck von 11 - 14 bar, bei dem das Sicherheitsventil im Druckregler öffnet,", "wenn der Abschaltvorgang versagt", "Das ist der Selbststabilisierungsdruck eines Kompressors", "Der Druck, bei dem das Fahrzeug sicherheitshalber automatisch abgebremst wird"],
+        answers: ["Das ist jener Druck von 11 - 14 bar, bei dem das Sicherheitsventil im Druckregler öffnet, wenn der Abschaltvorgang versagt", "Das ist der Selbststabilisierungsdruck eines Kompressors", "Der Druck, bei dem das Fahrzeug sicherheitshalber automatisch abgebremst wird", " Das ist jener Druck, der bei Ausfall eines Druckluftkreises erhalten bleiben muss"],
         correct: 3
     },
     {
@@ -235,7 +235,7 @@ export const questions = [
         correct: 0
     },
     {
-        question: "Druckluftbremse ohne EBS?",
+        question: "Welchen Vorteil hat ein elektronisch geregeltes Bremssystem gegenüber einer  Druckluftbremse ohne EBS?",
         answers: ["Es darf damit schneller gefahren werden", "Der Kraftstoffverbrauch wird geringer", "Die Ansprechzeit der Druckluftbremsanlage ist wesentlich kürzer", "Nach Ausfall eines Druckluftbremskreises wirkt die Bremse immer noch auf alle Räder"],
         correct: 2
     },
@@ -245,13 +245,13 @@ export const questions = [
         correct: 0
     },
     {
-        question: "den Betriebsdruck erreicht hat?",
+        question: "Woran erkennen Sie nach dem Starten des Fahrzeugmotors, dass die Druckluftbremsanlage den Betriebsdruck erreicht hat?",
         answers: ["Die Kontrolllampen erlöschen, der Warnsummer verstummt", "Das Manometer zeigt zumindest den Abschaltdruck an", "Das Motorwagenbremsventil lässt sich nicht mehr ganz durchdrücken", "Es lässt sich ein Gang einlegen"],
         correct: 0
     },
     {
         question: "Während der Fahrt leuchtet die ABS-Kontrollleuchte auf. Wie verhalten Sie sich?",
-        answers: ["Haltemöglichkeit aufsuchen, Motor abstellen und nochmals starten; falls die", "Kontrollleuchte immer noch leuchtet, Werkstätte aufsuchen", "Anhalten; die Kontrollleuchte signalisiert, dass nur noch ein Kreis der pneumatischen", "Bremsanlage funktioniert"],
+        answers: ["Haltemöglichkeit aufsuchen, Motor abstellen und nochmals starten; falls die Kontrollleuchte immer noch leuchtet, Werkstätte aufsuchen", "Anhalten; die Kontrollleuchte signalisiert, dass nur noch ein Kreis der pneumatischen Bremsanlage funktioniert", " Sofort Anhalten; jede Weiterfahrt ist verboten","Weiterfahren; es wird nur zwischendurch angezeigt, dass das ABS noch in Ordnung ist        "],
         correct: 0
     },
     {
@@ -265,7 +265,7 @@ export const questions = [
         correct: 3
     },
     {
-        question: "den roten. Was müssen Sie tun?",
+        question: "Sie fahren bergauf. Die Anzeige des Drehzahlmessers wandert aus dem grünen Bereich in den roten. Was müssen Sie tun?",
         answers: ["Das Schaltgetriebe in den Leerlauf schalten und das Fahrzeug rollen lassen", "Auf den nächstniedrigeren Getriebegang zurückschalten", "Sofort anhalten und den Motor abstellen", "Auf einen höheren Getriebegang schalten"],
         correct: 3
     },
@@ -286,7 +286,7 @@ export const questions = [
     },
     {
         question: "Wozu dient der grüne Bereich des Drehzahlmessers des Motors?",
-        answers: ["Er zeigt den Drehzahlbereich des Motors mit dem geringsten spezifischen", "Kraftstoffverbrauch unter Volllast und den Drehzahlbereich des Motors mit großem", "Drehmoment an", "Er zeigt den Drehzahlbereich des Motors mit dem niedrigsten Drehmoment an"],
+        answers: ["Er zeigt den Drehzahlbereich des Motors mit dem geringsten spezifischen Kraftstoffverbrauch unter Volllast und den Drehzahlbereich des Motors mit großem Drehmoment an", "Er zeigt den Drehzahlbereich des Motors mit dem niedrigsten Drehmoment an", " Er zeigt den Drehzahlbereich des Motors mit dem höchsten Kraftstoffverbrauch an","Er zeigt den Drehzahlbereich des Motors mit dem höchsten Verschleiß an        "],
         correct: 0
     },
     {
@@ -306,12 +306,12 @@ export const questions = [
     },
     {
         question: "Sie fahren mit einem Nutzfahrzeug bei Schneefall auf einer Autobahn. Wie sollten Sie sich verhalten?",
-        answers: ["Ich achte auf einen ausreichenden Sicherheitsabstand zu den vor mir fahrenden", "Fahrzeugen und achte im Verkehrsfunk auf Meldungen über den Straßenzustand auf", "diesem Autobahnteilstück", "Ich wechsle auf den linken Fahrstreifen und überhole alle Fahrzeuge, die vor mir langsam"],
+        answers: ["Ich achte auf einen ausreichenden Sicherheitsabstand zu den vor mir fahrenden Fahrzeugen und achte im Verkehrsfunk auf Meldungen über den Straßenzustand auf diesem Autobahnteilstück", "Ich wechsle auf den linken Fahrstreifen und überhole alle Fahrzeuge, die vor mir langsam fahren", "Ich muss sofort am Pannenstreifen anhalten und Schneeketten auf den Antriebsrädern montieren" ," Ich muss sofort am Pannenstreifen anhalten und Schneeketten auf den Vorderrädern montieren "],
         correct: 0
     },
     {
         question: "Sie lenken in einem Gegenverkehrsbereich einer Autobahn ein Nutzfahrzeug. Sie bemerken, dass der rechte vordere Reifen defekt geworden ist. Wie sollten Sie sich verhalten?",
-        answers: ["Ich schalte die Alarmblinkanlage ein, bremse ab und fahre in die nächste Pannenbucht", "Ich halte auf dem ersten Fahrstreifen der Autobahn an", "Ich fahre solang weiter, bis die Autobahnbaustelle endet. Danach halte ich am", "Pannenstreifen an"],
+        answers: ["Ich schalte die Alarmblinkanlage ein, bremse ab und fahre in die nächste Pannenbucht", "Ich halte auf dem ersten Fahrstreifen der Autobahn an", "Ich fahre solang weiter, bis die Autobahnbaustelle endet. Danach halte ich am Pannenstreifen an", "Ich fahre solang weiter, bis die nächste Autobahnausfahrt kommt. Dort fahre ich von der Autobahn ab und wechsle dann den Reifen"],
         correct: 0
     },
     {
@@ -349,162 +349,7 @@ export const questions = [
         answers: ["Alle", "Nur solche, die verrutschen können", "Nur solche, die leicht sind", "Nur solche, die schwer sind"],
         correct: 0
     },
-    {
-        question: "Was sind Hilfsmittel für die kraftschlüssige Ladungssicherung?",
-        answers: ["Luftkissen", "Paletten", "Kantenschutzvorrichtungen", "Anschlagleisten"],
-        correct: 2
-    },
-    {
-        question: "Wie wirkt sich eine niedrige Reibungszahl zwischen Ladefläche und Ladegut auf die  Ladungssicherung aus?",
-        answers: ["Je höher die Reibungszahl, desto höher die notwendige Sicherungskraft", "Je geringer die Reibungszahl, desto höher die notwendige Sicherungskraft", "Gar nicht. Die notwendige Sicherungskraft hängt nur vom Gewicht der Ladung ab", "Gar nicht. Die notwendige Sicherungskraft hängt nur vom der Größe der Ladefläche ab"],
-        correct: 1
-    },
-    {
-        question: "Womit ist eine über einen Meter über das Fahrzeug hinausragende Ladung zu kennzeichnen?",
-        answers: ["Mit einem roten Tuch", "Mit einer weißen Tafel (25 cm x 40 cm) mit rotem Rand", "Mit einer rot-weiß gestreiften Tafel (25 cm x 25 cm)", "Mit einer gelb-roten Drehleuchte"],
-        correct: 1
-    },
-    {
-        question: "Wie groß ist der Beschleunigungsbeiwert, der bei der Ladungssicherung im Straßenverkehr nach vorne mindestens zu berücksichtigen ist? ",
-        answers: ["0,25", "1,00", "0,50", "0,80"],
-        correct: 3
-    },
-    {
-        question: "Wie groß ist der Beschleunigungsbeiwert, der bei der Ladungssicherung im Straßenverkehr nach hinten mindestens zu berücksichtigen ist?",
-        answers: ["0,50", "1,00", "0,25", "0,80"],
-        correct: 0
-    },
-    {
-        question: "Wie groß ist der Beschleunigungsbeiwert, der bei der Ladungssicherung im Straßenverkehr  zur Seite mindestens zu berücksichtigen ist?",
-        answers: ["0,80", "1,00", "0,25", "0,50"],
-        correct: 3
-    },
-    {
-        question: "Welche der Angaben am Etikett eines Zurrgurtes sind für das Niederzurren von Bedeutung?",
-        answers: ["Die Vorspannkraft, die im Gurt für das Niederzurren genutzt werden kann (STF)", "Die maximale Belastbarkeit des Zurrgurtes bei geradem Zug (LC)", "Die Länge (L)", "Das Erzeugerdatum"],
-        correct: 0
-    },
-    {
-        question: "Was ist \"Formschluss\" bei der Ladungssicherung?",
-        answers: ["Verladen der Last mit Freilassen von Zwischenräumen", "Bündiges, lückenloses Verladen des Ladeguts auf der Ladefläche oder z.B. Festsetzen der", "Ladung an Aufbauteilen durch Direktzurren", "Festsetzen der Ladung auf der Ladefläche durch Niederzurren"],
-        correct: 1
-    },
-    {
-        question: "Wie können Sie eine Ladung, die Staub entwickeln kann, ordnungsgemäß sichern?",
-        answers: ["Durch Befördern auf einer offenen Ladefläche", "Durch Befördern in einem geschlossenen Behälter oder in einem geschlossenen Aufbau", "Mit einem Gitternetz", "Durch anfeuchten mit Wasser"],
-        correct: 1
-    },
-    {
-        question: "Was ist \"Kraftschluss\" bei der Ladungssicherung?",
-        answers: ["Lückenloses Verladen der Last", "Festsetzen der Ladung an Aufbauteilen durch Direktzurren", "Festsetzen der Ladung auf der Ladefläche durch Niederzurren", "Verladen der Last mit Freilassen von Zwischenräumen"],
-        correct: 2
-    },
-    {
-        question: "Was bedeutet die Angabe \"STF\" auf dem Herstellerschild eines Zurrgurtes?",
-        answers: ["Die Vorspannkraft, die im Gurt für das Niederzurren genutzt werden kann", "Die maximale Belastbarkeit des Zurrgurtes bei geradem Zug", "Die Handkraft des Anwenders", "Die maximale Belastbarkeit des Zurrgurtes bei einem Zurrwinkel von 45 Grad"],
-        correct: 0
-    },
-    {
-        question: "Was bedeutet die Angabe \"LC\" auf dem Herstellerschild eines Zurrgurtes?",
-        answers: ["Die Vorspannkraft, die im Gurt für das Niederzurren genutzt werden kann", "Die maximale Belastbarkeit des Zurrgurtes bei geradem Zug", "Die Handkraft des Anwenders", "Die maximale Belastbarkeit des Zurrgurtes bei einem Zurrwinkel von 45 Grad"],
-        correct: 1
-    },
-    {
-        question: "Bei den Angaben auf dem Kennzeichnungsanhänger einer Zurrkette ist keine Angabe der  Spannkraft STF vorhanden. Was bedeutet das für Sie?",
-        answers: ["Die Zurrkette darf nur für das Niederzurren verwendet werden", "Die Zurrkette darf nicht für das Niederzurren verwendet werden", "Die Zurrkette darf für jede Art der Ladungssicherung verwendet werden", "Die Zurrkette darf nur für das Direktzurren verwendet werden"],
-        correct: 1
-    },
-    {
-        question: "Darf bei Rundholztransporten das Holz quer zur Fahrtrichtung geladen werden?",
-        answers: ["Ja, immer", "Grundsätzlich nein! Außer es erfolgt die Landungssicherung mit einem geeigneten,", "engmaschigen Netz", "Nur dann, wenn der Transport im Rahmen einer Wirtschaftsfuhre erfolgt"],
-        correct: 1
-    },
-    {
-        question: "Wie viel muss das Gewicht auf der bzw. den Antriebsachsen Ihres LKW´s betragen?",
-        answers: ["Mindestens 25 % des Eigengewichts", "Mindestens 25 % des höchsten zulässigen Gesamtgewichts", "Mindestens 25 % des tatsächlichen Gesamtgewichts", "Höchstens 25 % des höchsten zulässigen Gesamtgewichts"],
-        correct: 2
-    },
-    {
-        question: "Wo greift die Gewichtskraft an der Ladung an?",
-        answers: ["Im Schwerpunkt", "Gleichmäßig entlang ihrer Auflagefläche", "Am höchsten Punkt", "Am niedrigsten Punkt"],
-        correct: 0
-    },
-    {
-        question: "Wie kann Ladung kraftschlüssig gesichert werden?",
-        answers: ["Durch die Verwendung von Spannlatten", "Durch Diagonalzurren", "Durch Anstellen der Ladung an die Stirn- bzw. Seitenwand", "Durch Niederzurren"],
-        correct: 3
-    },
-    {
-        question: "Eine Ladung soll durch Niederzurren gesichert werden. Welche Angabe am Etikett des Zurrgurtes ist bei der Berechnung der Anzahl der erforderlichen Zurrgurte zu berücksichtigen?",
-        answers: ["Die maximale Vorspannkraft STF", "Die maximale Zurrkraft LC", "Die maximale Handkraft SHF", "Die maximale Dehnung des Gurtbandes"],
-        correct: 0
-    },
-    {
-        question: "Eine Ladung soll durch Direktzurren gesichert werden. Welche Angabe am Etikett des Zurrgurtes ist bei der Berechnung der Anzahl der erforderlichen Zurrgurte zu berücksichtigen?",
-        answers: ["Der Zurrwinkel \"Alpha\"", "Die maximale Vorspannkraft STF", "Die maximale Handkraft SHF", "Die maximale Zurrkraft LC"],
-        correct: 3
-    },
-    {
-        question: "Welchen Einfluss hat der Zurrwinkel Alpha auf die wirksame Vorspannkraft beim   Niederzurren?",
-        answers: ["Je flacher der Zurrwinkel Alpha ist, um so kleiner ist die wirksame Vorspannkraft", "Je flacher der Zurrwinkel Alpha ist, um so größer ist die wirksame Vorspannkraft", "Der Zurrwinkel Alpha hat keinen Einfluss auf die wirksame Vorspannkraft", "Je flacher der Zurrwinkel Alpha ist, um so kleiner ist die wirksame maximale Handkraft SHF"],
-        correct: 0
-    },
-    {
-        question: "Sie transportieren Rundholz. Wie bzw. womit müssen Sie Ihre Ladung sichern?",
-        answers: ["Mit Staupolstern und Euro-Paletten", "In Fahrtrichtung mit Rungen und zur Seite mit rutschhemmenden Unterlagen", "Durch Diagonalzurren mit Zurrseilen und Spannlatten", "Durch Niederzurren mit Spanngurten, Zurrketten oder Zurrseilen (die Verwendung von"],
-        correct: 3
-    },
-    {
-        question: "Was bedeutet die Angabe STF = 300 daN auf dem Etikett eines Zurrgurtes?",
-        answers: ["Die maximale Vorspannkraft der Ratsche beträgt 300 daN", "Die maximale Kraft im Gurtband beträgt 300 daN", "Der Ratschenhebel darf maximal mit 300 kg betätigt werden", "Dass nur Ladegüter bis zu einem Gewicht von 300 kg gesichert werden dürfen"],
-        correct: 0
-    },
-    {
-        question: "Mit welcher Buchstabenfolge wird die maximale Vorspannkraft der Ratsche auf dem Etikett  eines Zurrgurtes gekennzeichnet?",
-        answers: ["FMAX", "LC", "SHF", "STF"],
-        correct: 3
-    },
-    {
-        question: "Sie wollen einen LKW mit einem höchsten zulässigen Gesamtgewicht von 10 t beladen.  Dieser LKW hat Zurrpunkte, die nach EN 12640 zertifiziert sind. Welche höchste zulässige Belastung der Zurrpunkte ist dann garantiert?",
-        answers: ["Höchstens 500 daN", "1.000 daN", "Auf jeden Fall zumindest 2.000 daN", "Auf jeden Fall zumindest 3.500 daN"],
-        correct: 1
-    },
-    {
-        question: "Sie wollen einen LKW mit einem höchsten zulässigen Gesamtgewicht von 6 t beladen. Dieser LKW hat Zurrpunkte, die nach EN 12640 zertifiziert sind. Welche höchste zulässige Belastungder Zurrpunkte ist dann garantiert?",
-
-        answers: ["800 daN", "1.000 daN", "Auf jeden Fall zumindest 2.000 daN", "Auf jeden Fall zumindest 3.500 daN"],
-        correct: 0
-    },
-    {
-        question: "Welche Ladungen sind mit einer Plane abzudecken?",
-        answers: ["Schüttgut, wie z.B. Sand oder Erdreich, wenn es abgeweht werden kann", "Stückgut, das in Kofferaufbauten befördert wird", "Rundholz", "Betonteile"],
-        correct: 0
-    },
-    {
-        question: "Was bedeutet die Angabe \"SHF\" auf dem Herstellerschild eines Zurrgurtes?",
-        answers: ["Die Vorspannkraft, die im Gurt für das Niederzurren genutzt werden kann", "Die maximale Belastbarkeit des Zurrgurtes bei geradem Zug", "Die Handkraft des Anwenders", "Die maximale Belastbarkeit des Zurrgurtes bei einem Zurrwinkel von 45 Grad"],
-        correct: 2
-    },
-    {
-        question: "Sie wollen einen LKW mit einem höchsten zulässigen Gesamtgewicht von 18 t beladen. Dieser LKW hat Zurrpunkte, die nach EN 12640 zertifiziert sind. Welche höchste zulässige Belastung der Zurrpunkte ist dann garantiert?",
-        answers: ["800 daN", "1.000 daN", "Auf jeden Fall zumindest 2.000 daN", "Auf jeden Fall zumindest 3.500 daN"],
-        correct: 2
-    },
-    {
-        question: "Welche Kräfte können während der Fahrt auf die Ladung nach vorne wirken?",
-        answers: ["Die Beschleunigungskraft beim Bremsen und eine zusätzliche Gewichtskraft beim", "Bergabfahren", "Die Fliehkraft beim Kurvenfahren", "Die Beschleunigungskraft beim Beschleunigen"],
-        correct: 0
-    },
-    {
-        question: "Welche Kräfte können während der Fahrt auf die Ladung seitlich wirken?",
-        answers: ["Die Bremskraft beim Bremsen", "Eine zusätzliche Gewichtskraft beim Bergabfahren", "Die Beschleunigungskraft beim Beschleunigen", "Die Fliehkraft beim Kurvenfahren und schnellen Ausweichmanövern"],
-        correct: 3
-    },
-    {
-        question: "Welche Kräfte können während der Fahrt auf die Ladung nach hinten wirken?",
-        answers: ["Die Bremskraft beim Bremsen", "Eine zusätzliche Kraft beim Bergauffahren und die Beschleunigungskraft beim", "Beschleunigen", "Die Fliehkraft beim Kurvenfahren"],
-        correct: 1
-    },
+    
     {
 
         question: "Sie lenken einen Omnibus im Linienverkehr. Was beachten Sie, wenn Sie im Ortsgebiet von  einer Haltestelle abfahren wollen?",
