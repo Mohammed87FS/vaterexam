@@ -56,6 +56,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function checkAnswer(selectedIndex) {
+    // Add this line
+    const answers = answersElement.children;
+        for (let i = 0; i < answers.length; i++) {
+            answers[i].classList.remove('selected-answer'); // Remove highlighting from all answers
+        }
+    
+        const selectedAnswer = answers[selectedIndex];
+        console.log("Answer clicked, index:", selectedAnswer); 
+
+        selectedAnswer.classList.add('selected-answer'); // Highlight the selected answer
+    
         const correctIndex = questions[currentQuestionIndex].correct;
         const isCorrect = selectedIndex === correctIndex;
         feedbackElement.innerHTML = ''; // Clear previous feedback
@@ -67,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         feedbackElement.appendChild(feedbackMessage);
         nextQuestionButton.style.display = 'block';
     }
+    
     
 
     nextQuestionButton.addEventListener('click', () => {
