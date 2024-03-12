@@ -18,15 +18,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchButton = document.getElementById('search-button');
 
     searchButton.addEventListener('click', () => {
-        let questionNumber = parseInt(searchInput.value, 10) - 1; // Convert input to zero-based index
-        if (questionNumber >= 0 && questionNumber < questions.length) {
-            currentQuestionIndex = questionNumber;
+        const searchTerm = searchInput.value.toLowerCase(); // Convert input to lowercase for case-insensitive search
+        const foundIndex = questions.findIndex(question => question.question.toLowerCase().includes(searchTerm));
+    
+        if (foundIndex !== -1) {
+            currentQuestionIndex = foundIndex;
             displayQuestion();
             feedbackElement.textContent = '';
         } else {
-            alert('Invalid question number! Please enter a number between 1 and ' + questions.length);
+            alert(`No question found containing the word: ${searchTerm}. Please try a different search.`);
         }
     });
+    
 
     function displayQuestion() {
         const currentQuestion = questions[currentQuestionIndex];
