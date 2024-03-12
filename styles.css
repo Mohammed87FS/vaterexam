@@ -1,138 +1,143 @@
+:root {
+    --primary-bg-color: #151736;
+    --container-bg-color: rgb(24, 38, 88);
+    --accent-color: #307dcf;
+    --accent-hover-color: #0056b3;
+    --text-color: #ffffff;
+    --button-bg-color: #0056b3;
+    --button-hover-bg-color: #004289;
+    --correct-color: #4CAF50;
+    --incorrect-color: #6d1c17;
+    --border-color: rgb(204, 204, 204);
+}
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #151736;
+    background-color: var(--primary-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-size: larger;
+    font-size:medium;
+    color: var(--text-color);
 }
 
 .quiz-container {
-    width: 90%; /* Adjusted for better responsiveness */
+    width: 90%;
     max-width: 600px;
-    background: rgb(24, 38, 88);
-    border: 1px solid rgb(204, 204, 204);
+    background: var(--container-bg-color);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px; /* Adjusted padding */
+    padding: 20px;
     text-align: center;
-    color: rgb(255, 255, 255);
 }
 
-/* Remaining CSS... */
+/* Improved Responsive Styles */
+@media (max-width: 1024px) {
+    .quiz-container {
+        max-width: 90%;
+    }
+}
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .answers-container {
-        grid-template-columns: 1fr; /* Stack answers vertically on smaller screens */
+        grid-template-columns: 1fr;
     }
-    
+
     #search-input, #search-button {
-        width: auto; /* Adjust width for smaller devices */
-        margin-top: 10px; /* Reduce margin */
+        width: auto;
+        margin-top: 10px;
     }
 }
 
 @media (max-width: 480px) {
-    .btn {
-        width: 100%; /* Full-width buttons on very small screens */
-        margin-top: 10px; /* Reduce margin */
+    .btn, #search-button {
+        width: 100%;
+        margin-top: 10px;
     }
 }
 
-#search-input {
+#search-input, #search-button {
     padding: 10px;
     margin-top: 20px;
-    border: 1px solid #ddd;
-     background-color: #003a77;
     border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#search-input {
+    background-color: var(--primary-bg-color);
     width: calc(100% - 100px);
     display: inline-block;
 }
 
 #search-button {
-    width: 80px;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 4px;
+    background-color: var(--accent-color);
     border: none;
     cursor: pointer;
     display: inline-block;
-    background-color: #307dcf;
 }
 
 #search-button:hover {
-    background-color: #0056b3;
-}
-
-.question-container h2 {
-    margin: 20px 0;
-    padding: 30px;
+    background-color: var(--accent-hover-color);
 }
 
 .answers-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    margin-top: 20px;
 }
 
 .answers-container div {
     background: rgb(20, 32, 75);
     padding: 20px;
-    
-    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid var(--border-color);
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    color: #fafafa;
     font-weight: 500;
-    font-size: larger;
 }
 
 .answers-container div:hover {
     background-color: #151539;
-    color:white;
+    color: white;
 }
 
 .btn {
-    background-color: #0056b3;
-    color: rgb(255, 255, 255);
+    background-color: var(--button-bg-color);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    margin-top: 20px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 20px;
 }
 
 .btn:hover {
-    background-color: #004289;
+    background-color: var(--button-hover-bg-color);
 }
 
-#feedback {
+#feedback, .feedback-message {
     margin-top: 20px;
     font-style: italic;
-}
-
-
-.feedback-message {
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: bold;
     animation: fadeIn 0.5s;
 }
 
+.feedback-message {
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
 .correct {
-    background-color: #4CAF50; /* Green background for correct answers */
+    background-color: var(--correct-color);
 }
 
 .incorrect {
-    background-color: #6d1c17; /* Red background for incorrect answers */
+    background-color: var(--incorrect-color);
 }
 
 @keyframes fadeIn {
