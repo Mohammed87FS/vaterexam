@@ -29,6 +29,20 @@ document.addEventListener('DOMContentLoaded', () => {
             alert(`No question found containing the word: ${searchTerm}. Please try a different search.`);
         }
     });
+    const searchNumberButton = document.getElementById('search-number-button');
+const searchNumberInput = document.getElementById('search-number-input');
+
+searchNumberButton.addEventListener('click', () => {
+    const questionNumber = parseInt(searchNumberInput.value, 10); // Convert input to integer
+    if (questionNumber >= 1 && questionNumber <= questions.length) {
+        currentQuestionIndex = questionNumber - 1; // Adjust for zero index
+        displayQuestion();
+        feedbackElement.textContent = '';
+    } else {
+        alert(`No question found with number: ${questionNumber}. Please enter a valid question number.`);
+    }
+});
+
     
 
     function displayQuestion() {
