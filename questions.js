@@ -756,7 +756,7 @@ export const questions = [
     },
     {
         question: "Sie haben die täglich zulässige Lenkzeit von 10 Stunden wegen eines unvorhersehbaren Ereignisses verlängert. Was müssen Sie dann beim Erreichen ihres Fahrtziels beachten?",
-        answers: ["Ich muss auf jeden Fall die Fahrerkarte aus dem Kontrollgerät entnehmen", "Ich muss einen Ausdruck aus dem Kontrollgerät erstellen. Auf diesem Ausdruck bzw. dem", "Schaublatt muss ich den", "Grund für die Überschreitung der täglich zulässigen Lenkzeit vermerken"],
+        answers: ["Ich muss auf jeden Fall die Fahrerkarte aus dem Kontrollgerät entnehmen", "Ich muss einen Ausdruck aus dem Kontrollgerät erstellen. Auf diesem Ausdruck bzw. dem Schaublatt muss ich den Grund für die Überschreitung der täglich zulässigen Lenkzeit vermerken", "Ich muss auf jeden Fall das Schaublatt im Kontrollgerät belassen  ", "Ich muss die Firmenleitung sofort von dem Ereignis verständigen "],
         correct: 1
     },
     {
@@ -766,7 +766,7 @@ export const questions = [
     },
     {
         question: "Sie haben die täglich zulässige Lenkzeit von 10 Stunden wegen eines unvorhersehbaren Ereignisses verlängert. Müssen Sie diese Verlängerung danach wieder ausgleichen?",
-        answers: ["Nein", "Ja, durch eine gleichwertige Ruhezeit. Diese muss spätestens zum Ende des dritten Monats,", "das auf die Verlängerung folgt, genommen werden", "Ja, durch eine gleichwertige Ruhezeit. Diese muss spätestens mit der nächstfolgenden"],
+        answers: ["Nein", "Ja, durch eine gleichwertige Ruhezeit. Diese muss spätestens zum Ende des dritten Monats, das auf die Verlängerung folgt, genommen werden", "Ja, durch eine gleichwertige Ruhezeit. Diese muss spätestens mit der nächstfolgenden Ruhezeit genommen werden", " Ja, durch eine gleichwertige Ruhezeit. Diese muss spätestens zum Ende der dritten Woche,die auf die Woche folgt, in der die Verlängerung erfolgte, genommen werden"],
         correct: 3
     },
     {
@@ -946,7 +946,7 @@ export const questions = [
     },
     {
         question: "Wo soll die GO-Box auf der Windschutzscheibe des Fahrzeuges montiert werden, um eine korrekte Mautentrichtung zu gewährleisten?",
-        answers: ["An der Innenseite der Windschutzscheibe zwischen Lenkradmitte und Fahrzeugmitte, mindestens 10 cm oberhalb des Scheibenwischers in Ruhestellung und mindestens 30 cm", "unterhalb der Windschutzscheibenoberkante. Genaue Informationen zur ordnungsgemäßen Anbringung der GO-Box sind in der ASFINAG-Mautordnung zu finden", "Immer genau in der Fahrzeugmitte " ,  "Nahe der Oberkante der Windschutzscheibe ", "  So, dass sie von den in Ruhelage befindlichen Scheibenwischern völlig verdeckt wird"],
+        answers: ["An der Innenseite der Windschutzscheibe zwischen Lenkradmitte und Fahrzeugmitte, mindestens 10 cm oberhalb des Scheibenwischers in Ruhestellung und mindestens 30 cm unterhalb der Windschutzscheibenoberkante. Genaue Informationen zur ordnungsgemäßen Anbringung der GO-Box sind in der ASFINAG-Mautordnung zu finden", "Immer genau in der Fahrzeugmitte " ,  "Nahe der Oberkante der Windschutzscheibe ", "  So, dass sie von den in Ruhelage befindlichen Scheibenwischern völlig verdeckt wird"],
         correct: 0
     },
     {
@@ -966,7 +966,7 @@ export const questions = [
     },
     {
         question: "Die GO-Box Ihres Fahrzeuges hat beim Durchfahren eines Mautportals vier Signaltöne  abgegeben. Wie sollten Sie sich verhalten?",
-        answers: ["Ich suche innerhalb von 5 Stunden bzw. einer Fahrtstrecke von 100 km eine Vertriebsstelle", "auf, um die Maut nachzuzahlen", "Ich stelle die Abgasklasse des Omnibusses an der GO-Box neu ein", "Ich habe 96 Stunden Zeit, um eine Vertriebsstelle zur Nachzahlung der Maut aufzusuchen" , "Ich habe vier Wochen Zeit, um eine Vertriebsstelle zur Nachzahlung der Maut aufzusuchen "],
+        answers: ["Ich suche innerhalb von 5 Stunden bzw. einer Fahrtstrecke von 100 km eine Vertriebsstelle auf, um die Maut nachzuzahlen", "Ich stelle die Abgasklasse des Omnibusses an der GO-Box neu ein", "Ich habe 96 Stunden Zeit, um eine Vertriebsstelle zur Nachzahlung der Maut aufzusuchen" , "Ich habe vier Wochen Zeit, um eine Vertriebsstelle zur Nachzahlung der Maut aufzusuchen "],
         correct: 0 
     },
     {
@@ -985,7 +985,7 @@ export const questions = [
   
     {
         question: "Wie müssen Sie Ihren Omnibus kennzeichnen, wenn Sie einen Schülertransport durchführen?",
-        answers: ["Durch eine gelbrote quadratische Tafel mit dem Kindersymbol an der Vorder- und", "Rückseite des Busses", "Durch die Aufschrift \"Schülertransport\" im Zielschild", "Durch gelbrote quadratische Tafeln mit dem Kindersymbol an den Seitenwänden des Busses"],
+        answers: ["Durch eine gelbrote quadratische Tafel mit dem Kindersymbol an der Vorder- und Rückseite des Busses", "Durch die Aufschrift \"Schülertransport\" im Zielschild", "Durch gelbrote quadratische Tafeln mit dem Kindersymbol an den Seitenwänden des Busses", " Durch gelbrote quadratische Tafeln mit dem Kindersymbol im Fahrgastraum an den Sitzen des Busses "],
         correct: 0
     },
    
@@ -1093,11 +1093,6 @@ export const questions = [
         answers: ["Wenn ich starke Beruhigungsmittel einnehme, um sofort wieder fahren zu können", "Wenn ich nicht mit anderen über das Unfallerlebnis spreche", "Wenn ich auf den Schock Alkohol trinke", "Wenn ich mir professionelle Hilfe hole, um das Unfallerlebnis aufzuarbeiten"],
         correct: 3
     },
- 
-  
- 
-  
-  
     {
         question: "Wann verliert der Fahrerqualifizierungsnachweis seine Gültigkeit?",
         answers: ["Wenn die Lenkberechtigung entzogen worden ist", "Wenn nicht alle 3 Jahren eine Weiterbildung erfolgt", "Wenn nicht alle 5 Jahren eine Weiterbildung erfolgt", "Wenn die Grundqualifikationsprüfung nicht alle 5 Jahre neu abgelegt wird"],
@@ -1125,7 +1120,7 @@ export const questions = [
     },
     {
         question: "Der Fahrerqualifizierungsnachweis verliert seine Gültigkeit, wenn...",
-        answers: ["die Lenkerberechtigung entzogen wird", "innerhalb von 3 Jahren keine Weiterbildung erfolgt        ", "innerhalb von 5 Jahren keine Weiterbildung erfolgt        ", "die Grundqualifikationsprüfung nicht alle 5 Jahre wiederholt wird"],
+        answers: ["die Lenkerberechtigung entzogen wird", "innerhalb von 3 Jahren keine Weiterbildung erfolgt", "innerhalb von 5 Jahren keine Weiterbildung erfolgt        ", "die Grundqualifikationsprüfung nicht alle 5 Jahre wiederholt wird"],
         correct: 2
     },
 
