@@ -1114,11 +1114,7 @@ export const questions = [
         correct: 1
     },
   
-    {
-        question: "Für welche Transporte sind neben dem Fahrerqualifizierungsnachweis Zusatzqualifikationen notwendig?",
-        answers: ["Gefahrguttransporte sowie Transporte von Lebendtieren auf Langstrecken", "Schwerlasttransporte", "Temperaturgeführte Transporte", "Autotransporte"],
-        correct: 0
-    },
+ 
     {
         question: "Der Fahrerqualifizierungsnachweis verliert seine Gültigkeit, wenn...",
         answers: ["die Lenkerberechtigung entzogen wird", "innerhalb von 3 Jahren keine Weiterbildung erfolgt", "innerhalb von 5 Jahren keine Weiterbildung erfolgt        ", "die Grundqualifikationsprüfung nicht alle 5 Jahre wiederholt wird"],
