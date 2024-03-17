@@ -1126,11 +1126,7 @@ export const questions = [
         answers: ["3 Jahre", "4 Jahre", "5 Jahre", "6 Jahre"],
         correct: 2
     },
-    {
-        question: " Wie ist die Dauer der Weiterbildung für die Verlängerung des  Fahrerqualifizierungsnachweises geregelt?",
-        answers: ["Es müssen mindestens 35 Stunden innerhalb von 3 Jahren nachgewiesen werden", "Es müssen mindestens 35 Stunden innerhalb von 5 Jahren nachgewiesen werden", "Es dürfen höchstens 25 Stunden innerhalb von 2 Jahren nachgewiesen werden", "Es dürfen höchstens 30 Stunden innerhalb von 4 Jahren nachgewiesen werden"],
-        correct: 1
-    },
+
     {
         question: "Wo kann in Österreich eine rechtsgültige Weiterbildung für die Verlängerung des  Fahrerqualifizierungsnachweises absolviert werden?",
         answers: ["Bei einer ermächtigten Ausbildungsstätte", "Bei jeder Person, die in ihrem Führerschein den Code \"95\" eingetragen hat", "Bei jedem Omnibusunternehmen, das mehr als 5 Omnibusse betreibt", "Bei jeder Ausbildungsstätte, die Stapler- und Krankurse anbieten darf"],
