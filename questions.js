@@ -1093,6 +1093,11 @@ export const questions = [
         answers: ["Wenn ich starke Beruhigungsmittel einnehme, um sofort wieder fahren zu können", "Wenn ich nicht mit anderen über das Unfallerlebnis spreche", "Wenn ich auf den Schock Alkohol trinke", "Wenn ich mir professionelle Hilfe hole, um das Unfallerlebnis aufzuarbeiten"],
         correct: 3
     },
+ 
+  
+ 
+  
+  
     {
         question: "Wann verliert der Fahrerqualifizierungsnachweis seine Gültigkeit?",
         answers: ["Wenn die Lenkberechtigung entzogen worden ist", "Wenn nicht alle 3 Jahren eine Weiterbildung erfolgt", "Wenn nicht alle 5 Jahren eine Weiterbildung erfolgt", "Wenn die Grundqualifikationsprüfung nicht alle 5 Jahre neu abgelegt wird"],
@@ -1108,11 +1113,7 @@ export const questions = [
         answers: ["Es müssen mindestens 35 Stunden innerhalb von 3 Jahren nachgewiesen werden", "Es müssen mindestens 35 Stunden innerhalb von 5 Jahren nachgewiesen werden", "Es dürfen höchstens 25 Stunden innerhalb von 2 Jahren nachgewiesen werden", "Es dürfen höchstens 30 Stunden innerhalb von 4 Jahren nachgewiesen werden"],
         correct: 1
     },
-    {
-        question: "Wo kann in Österreich eine rechtsgültige Weiterbildung für die Verlängerung des Fahrerqualifizierungsnachweises absolviert werden?",
-        answers: ["Bei einer ermächtigten Ausbildungsstätte", "Bei jeder Person, die in ihrem Führerschein den Code \"95\" eingetragen hat", "Bei jedem Güterbeförderungsunternehmen, das mehr als 5 LKW betreibt", "Bei jeder Ausbildungsstätte, die Stapler- und Krankurse anbieten darf"],
-        correct: 2
-    },
+  
     {
         question: "Für welche Transporte sind neben dem Fahrerqualifizierungsnachweis Zusatzqualifikationen notwendig?",
         answers: ["Gefahrguttransporte sowie Transporte von Lebendtieren auf Langstrecken", "Schwerlasttransporte", "Temperaturgeführte Transporte", "Autotransporte"],
