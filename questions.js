@@ -206,7 +206,7 @@ export const questions = [
     },
     {
         question: "Was verstehen Sie unter einer ALB-Regelung bei einer Druckluftbremsanlage?",
-        answers: ["Eine Bremsanlage mit Blockierschutz", "Eine Regelung der Bremskraft entsprechend den Witterungsverhältnissen", "Eine Regelung, welche die Bremskraft an den Achsen nach dem Beladungszustand", "automatisch anpasst"],
+        answers: ["Eine Bremsanlage mit Blockierschutz", "Eine Regelung der Bremskraft entsprechend den Witterungsverhältnissen", "Eine Regelung, welche die Bremskraft an den Achsen nach dem Beladungszustand automatisch anpasst", "Eine automatisch selbstnachstellende Bremsanlage"],
         correct: 2
     },
     {
@@ -388,32 +388,32 @@ export const questions = [
     },
     {
         question: "Sie lenken einen Omnibus im Gelegenheitsverkehr. Was müssen Sie beachten, wenn Sie Kinder oder Jugendliche im Alter zwischen 3 und 14 Jahren befördern?",
-        answers: ["Die Kinder oder Jugendlichen dürfen nur in einem ihrem Alter entsprechenden Kindersitz", "befördert werden", "Die Kinder oder Jugendlichen dürfen nur in einem ihrem Körpergewicht entsprechenden", "Kindersitz befördert werden"],
+        answers: ["Die Kinder oder Jugendlichen dürfen nur in einem ihrem Alter entsprechenden Kindersitz befördert werden", "Die Kinder oder Jugendlichen dürfen nur in einem ihrem Körpergewicht entsprechenden Kindersitz befördert werden", " Die Kinder oder Jugendlichen müssen die Sicherheitsgurte verwenden, falls solche vorhanden sind", "Die Kinder oder Jugendlichen müssen die Sicherheitsgurte nur dann verwenden, wenn sie in der ersten Sitzreihe befördert werden"],
         correct: 2
     },
     {
         question: "Sie wollen mit Ihrem Omnibus im Rahmen einer Ausflugsfahrt nach einer zweistündigen Mittagspause weiterfahren. Was haben Sie vor der Abfahrt zu tun?",
-        answers: ["Ich muss eine Bremsprobe durchführen", "Ich muss am digitalen Kontrollgerät auf jeden Fall einen Nachtrag der Tätigkeiten", "durchführen", "Ich muss am analogen Kontrollgerät auf jeden Fall einen Nachtrag der Tätigkeiten"],
+        answers: ["Ich muss eine Bremsprobe durchführen", "Ich muss am digitalen Kontrollgerät auf jeden Fall einen Nachtrag der Tätigkeiten durchführen", "Ich muss am analogen Kontrollgerät auf jeden Fall einen Nachtrag der Tätigkeiten durchführen, wenn die Tachoscheibe während der Fahrtpause im Kontrollgerät war", " Ich muss überprüfen, ob noch alle Verbandpäckchen vorhanden sind"],
         correct: 0
     },
     {
         question: "Sie wollen mit Ihrem Omnibus im Rahmen einer Ausflugsfahrt nach einer zweistündigen Mittagspause weiterfahren. Wie führen Sie die vorgeschriebene Bremsprobe durch?",
-        answers: ["Ich achte vor der Abfahrt am Manometer der Betriebsbremsanlage darauf, ob während der", "Fahrtpause ein sichtbarer Druckabfall eingetreten ist und mache bei der Abfahrt eine", "gefühlvolle Betriebsbremsung", "Ich beschleunige auf etwa 50 km/h und mache eine Vollbremsung. Der Omnibus muss"],
+        answers: ["Ich achte vor der Abfahrt am Manometer der Betriebsbremsanlage darauf, ob während der Fahrtpause ein sichtbarer Druckabfall eingetreten ist und mache bei der Abfahrt eine gefühlvolle Betriebsbremsung", "Ich beschleunige auf etwa 50 km/h und mache eine Vollbremsung. Der Omnibus muss innerhalb von 10 m zum Stillstand kommen", " Ich beschleunige auf etwa 20 km/h und mache eine Vollbremsung. Der Omnibus muss innerhalb von 3 m zum Stillstand kommen" , " Ich beschleunige auf etwa 10 km/h und mache eine Vollbremsung. Der Omnibus muss  innerhalb von 5 m zum Stillstand kommen"],
         correct: 0
     },
     {
         question: "Sie sollen mit Ihrem Omnibus Angehörige eines Fußballvereines zu einem Fußballspiel befördern. Beim Einsteigen der Fahrgäste bemerken Sie, dass einzelne Fahrgäste pyrotechnische Gegenstände mit sich führen. Wie sollten Sie sich verhalten?",
-        answers: ["Ich fordere diese Fahrgäste höflich auf, diese Gegenstände gesichert im Gepäckraum des", "Omnibusses unterzubringen", "Ich fordere diese Fahrgäste höflich auf, diese Gegenstände in den Ablagen über den Sitzen", "des Omnibusses unterzubringen"],
+        answers: ["Ich fordere diese Fahrgäste höflich auf, diese Gegenstände gesichert im Gepäckraum des Omnibusses unterzubringen", "Ich fordere diese Fahrgäste höflich auf, diese Gegenstände in den Ablagen über den Sitzen des Omnibusses unterzubringen" , " Ich verlange von diesen Fahrgästen, sich mit diesen Gegenständen sofort aus dem Omnibus   zu entfernen", " Ich ersuche diese Fahrgäste höflich, sich mit diesen Gegenständen sofort aus dem Omnibus zu entfernen"],
         correct: 0
     },
     {
         question: "Ein Fahrgast möchte bei der Fahrt im Omnibus unbedingt seinen Hund ohne Maulkorb lassen. Andere Fahrgäste beschweren sich darüber. Wie sollten Sie sich verhalten?",
-        answers: ["Ich weise den Fahrgast höflich darauf hin, dass Hunde ohne Maulkorb (ausgenommen", "Assistenzhunde) von der Fahrt ausgeschlossen werden können, und zeige dem Fahrgast", "den entsprechenden Passus in den Betriebs- und Beförderungsbedingungen der", "Betriebsordnung"],
+        answers: ["Ich weise den Fahrgast höflich darauf hin, dass Hunde ohne Maulkorb (ausgenommen Assistenzhunde) von der Fahrt ausgeschlossen werden können, und zeige dem Fahrgast den entsprechenden Passus in den Betriebs- und Beförderungsbedingungen der Betriebsordnung", " Ich weise den Fahrgast darauf hin, dass er den Hund ohne Maulkorb nur mitführen darf, wenn er den Hund in der letzten Sitzreihe anleint" , " Ich weise den Fahrgast höflich darauf hin, dass er den Hund ohne Maulkorb nur mitführen darf, wenn er mit dem Hund alleine in einer Sitzreihe sitzt", " Ich weise den Fahrgast höflich darauf hin, dass er den Hund ohne Maulkorb nur mitführen darf, wenn der Hund am Boden auf einer eigenen Decke liegt"],
         correct: 0
     },
     {
         question: "Ein Fahrgast möchte bei der Fahrt im Omnibus unbedingt seinen Hund ohne Maulkorb  lassen. Wie können Sie dem Fahrgast den entsprechenden Passus in den Betriebs- und  Beförderungsbedingungen der Betriebsordnung zeigen, der das verbietet?",
-        answers: ["Ich bin verpflichtet, einen Abdruck dieser Verordnung mitzuführen und auf Verlangen", "Fahrgästen vorzulegen", "Es genügt, wenn der Fahrgast die Verordnung am Firmensitz einsehen kann", "Die Verordnung muss bei jeder öffentlichen Haltestelle per WLAN heruntergeladen werden"],
+        answers: ["Ich bin verpflichtet, einen Abdruck dieser Verordnung mitzuführen und auf Verlangen Fahrgästen vorzulegen", "Es genügt, wenn der Fahrgast die Verordnung am Firmensitz einsehen kann", "Die Verordnung muss bei jeder öffentlichen Haltestelle per WLAN heruntergeladen werden", "Die Verordnung muss bei jeder öffentlichen Haltestelle als Ausdruck angebracht sein"],
         correct: 0
     },
     {
@@ -423,7 +423,7 @@ export const questions = [
     },
     {
         question: "Warum muss die Ladung in einem Omnibus gesichert werden?",
-        answers: ["Damit Fahrer, Beifahrer, Fahrgäste und andere Verkehrsteilnehmer nicht gefährdet werden", "und die Ladung und der Omnibus nicht beschädigt werden", "Damit die Ladung bei einem Unfall auf jeden Fall im Omnibus bleibt", "Damit Fahrgäste beim Aussteigen ihr Gepäck möglichst rasch finden können"],
+        answers: ["Damit Fahrer, Beifahrer, Fahrgäste und andere Verkehrsteilnehmer nicht gefährdet werden und die Ladung und der Omnibus nicht beschädigt werden", "Damit die Ladung bei einem Unfall auf jeden Fall im Omnibus bleibt", "Damit Fahrgäste beim Aussteigen ihr Gepäck möglichst rasch finden können", " Damit Lenkerinnen und Lenker beim Aussteigen das Gepäck der jeweiligen Fahrgäste möglichst rasch finden können"],
         correct: 0
     },
     {
@@ -463,12 +463,12 @@ export const questions = [
     },
     {
         question: "Sie sollen die Koffer einer Reisegruppe in Ihrem Omnibus verstauen. Was beachten Sie dabei?",
-        answers: ["Ich verstaue die Koffer möglichst lückenlos im Gepäckraum des Omnibusses und achte", "darauf, dass die Koffer möglichst formschlüssig zur Stirnwand, den Teilungsstreben und den", "Seitenwänden des Gepäckraumes verladen sind", "Wenn der Gepäckraum voll geladen ist, ersuche ich die Fahrgäste, ihre Koffer auf den Schoß"],
+        answers: ["Ich verstaue die Koffer möglichst lückenlos im Gepäckraum des Omnibusses und achte darauf, dass die Koffer möglichst formschlüssig zur Stirnwand, den Teilungsstreben und den Seitenwänden des Gepäckraumes verladen sind", "Wenn der Gepäckraum voll geladen ist, ersuche ich die Fahrgäste, ihre Koffer auf den Schoß zu nehmen" , " Wenn der Gepäckraum voll geladen ist, ersuche ich die Fahrgäste, die Koffer im Mittelgang des Fahrgastraumes aufzustellen" , " Wenn der Gepäckraum voll geladen ist, ersuche ich die Fahrgäste, ihre Koffer auf freien  Sitzen möglichst hoch gestapelt unterzubringen"],
         correct: 0
     },
     {
         question: "Sie bemerken vor der Abfahrt, dass Fahrgäste im Mittelgang Ihres Omnibusses Getränkekisten aufgestellt haben, um während der Fahrt Getränke zu konsumieren. Wie sollten Sie sich verhalten?",
-        answers: ["Ich sorge dafür, dass die Getränkekisten im Mittelgang mit Zurrgurten gesichert werden", "Ich sorge dafür, dass die Getränkekisten im Mittelgang mit rutschhemmenden Unterlagen", "gesichert werden", "Ich sorge dafür, dass die Getränkekisten im Gepäckraum des Omnibusses gesichert"],
+        answers: ["Ich sorge dafür, dass die Getränkekisten im Mittelgang mit Zurrgurten gesichert werden", "Ich sorge dafür, dass die Getränkekisten im Mittelgang mit rutschhemmenden Unterlagen gesichert werden", "Ich sorge dafür, dass die Getränkekisten im Gepäckraum des Omnibusses gesichert werden", " Ich sorge dafür, dass die Getränkekisten im Gepäckraum des Omnibusses gesichert  verladen werden. Für den Transport der Getränkegebinde biete ich die Benutzung der Kühlboxen im Fahrgastraum an" , " Ich bestimme einen Fahrgast, der jeweils eine Kiste während der Fahrt festhalten muss        "],
         correct: 2
     },
     {
@@ -478,7 +478,7 @@ export const questions = [
     },
     {
         question: "Die Gepäckablagen über den Sitzen im Fahrgastraum Ihres Omnibusses weisen Verschlussklappen auf. Was beachten Sie dabei?",
-        answers: ["Ich überzeuge mich vor der Abfahrt, dass alle Verschlussklappen geschlossen und verriegelt", "sind", "Die Verschlussklappen können während der Fahrt geöffnet bleiben, wenn die Fahrgäste das", "wünschen"],
+        answers: ["Ich überzeuge mich vor der Abfahrt, dass alle Verschlussklappen geschlossen und verriegelt sind", "Die Verschlussklappen können während der Fahrt geöffnet bleiben, wenn die Fahrgäste das wünschen", "Einzelne Verschlussklappen können während der Fahrt geöffnet bleiben, wenn das in der Gepäckablage verstaute Handgepäck zu viel Platz benötigt", "Die Verschlussklappen können während der Fahrt geöffnet bleiben, wenn die Fahrt nicht nur innerhalb eines Ortsgebietes durchgeführt wird"],
         correct: 0
     },
     {
@@ -523,7 +523,7 @@ export const questions = [
     },
     {
         question: "Sie wollen ein Fahrzeug mit digitalem Kontrollgerät lenken. Wie sollten Sie sich verhalten, wenn Ihre Fahrerkarte defekt geworden oder verloren gegangen ist?",
-        answers: ["Ich fertige vor Fahrtbeginn und nach Fahrtende einen Tagesausdruck an. Der", "Tagesausdruck ist mit meinem Namen und der Nummer des Führerscheins oder Nummer", "der Fahrerkarte sowie meiner Unterschrift zu versehen. Ich beantrage innerhalb von 7", "Kalendertagen eine Ersatzkarte"],
+        answers: ["Ich fertige vor Fahrtbeginn und nach Fahrtende einen Tagesausdruck an. Der Tagesausdruck ist mit meinem Namen und der Nummer des Führerscheins oder Nummer der Fahrerkarte sowie meiner Unterschrift zu versehen. Ich beantrage innerhalb von 7 Kalendertagen eine Ersatzkarte" , "Ich führe handschriftliche Aufzeichnungen über die Dauer der Lenkzeiten", " Ich fahre als Ersatz mit der gesteckten Unternehmenskarte "," Ich fahre als Ersatz mit der gesteckten Fahrerkarte eines Kollegen, der sich gerade im Urlaub befindet"],
         correct: 0
     },
     {
@@ -538,7 +538,7 @@ export const questions = [
     },
     {
         question: "Was bedeutet der Begriff \"Tägliche Ruhezeit\"?",
-        answers: ["Das ist der tägliche Zeitraum, in dem eine Lenkerin oder ein Lenker frei über ihre bzw. seine", "Zeit verfügen kann und der eine „regelmäßige tägliche Ruhezeit“ oder eine „reduzierte", "tägliche Ruhezeit“ umfasst", "Das ist die Pause, die nach 6 Stunden ununterbrochener Arbeitszeit zu halten ist"],
+        answers: ["Das ist der tägliche Zeitraum, in dem eine Lenkerin oder ein Lenker frei über ihre bzw. seine Zeit verfügen kann und der eine „regelmäßige tägliche Ruhezeit“ oder eine „reduzierte tägliche Ruhezeit“ umfasst", "Das ist die Pause, die nach 6 Stunden ununterbrochener Arbeitszeit zu halten ist", " Das ist die Lenkpause, die nach 4,5 Stunden Lenkzeit gesetzlich zu halten ist", " Das ist die Pause, die nach 12 Stunden ununterbrochener Arbeitszeit zu halten ist        "],
         correct: 0
     },
     {
@@ -548,12 +548,12 @@ export const questions = [
     },
     {
         question: "Sie lenken ein Fahrzeug mit digitalem Kontrollgerät. Welche Einstellungen müssen Sie vornehmen, wenn Sie einen Grenzübertritt durchführen?",
-        answers: ["Ich muss das Ländersymbol umstellen, wenn das Kontrollgerät diese Umstellung nicht", "automatisch vornimmt", "Ich muss die UTC-Zeit umstellen", "Ich muss das Tätigkeitssymbol umstellen"],
+        answers: ["Ich muss das Ländersymbol umstellen, wenn das Kontrollgerät diese Umstellung nicht", "automatisch vornimmt", "Ich muss die UTC-Zeit umstellen", "Ich muss das Tätigkeitssymbol umstellen", " Ich muss das Kontrollgerät in den Out-Modus umstellen"],
         correct: 0
     },
     {
         question: "Welche Tätigkeiten fallen unter den Begriff \"Bereitschaftszeit\"?",
-        answers: ["Wenn ich für das Lenken eines Fahrzeuges zur Verfügung stehe, dieses aber nicht selbst", "lenke und auch sonst keine Arbeiten verrichte", "Nur solche, bei denen ich das Fahrzeug belade", "Wenn ich am Fahrzeug einen Radwechsel vornehme"],
+        answers: ["Wenn ich für das Lenken eines Fahrzeuges zur Verfügung stehe, dieses aber nicht selbst", "lenke und auch sonst keine Arbeiten verrichte", "Nur solche, bei denen ich das Fahrzeug belade", "Wenn ich am Fahrzeug einen Radwechsel vornehme", " Nur solche, bei denen ich das Fahrzeug entlade"],
         correct: 0
     },
     {
@@ -563,12 +563,12 @@ export const questions = [
     },
     {
         question: "Welche Tätigkeiten fallen unter den Begriff \"Andere Arbeiten\"?",
-        answers: ["Wenn ich für das Lenken eines Fahrzeuges zur Verfügung stehe, dieses aber nicht selbst", "lenke und auch sonst keine Arbeiten verrichte", "Wenn ich bei Mehrfahrerbetrieb im fahrenden Fahrzeug als 2. Person mitfahre", "Wenn ich das Fahrzeug be- oder entlade"],
+        answers: ["Wenn ich für das Lenken eines Fahrzeuges zur Verfügung stehe, dieses aber nicht selbst lenke und auch sonst keine Arbeiten verrichte", "Wenn ich bei Mehrfahrerbetrieb im fahrenden Fahrzeug als 2. Person mitfahre", "Wenn ich das Fahrzeug be- oder entlade" , "Wenn ich das Fahrzeug als Lenkerin oder Lenker zu einem anderen Betriebsstandort überstelle  "],
         correct: 2
     },
     {
         question: "Sie machen im Mehrfahrerbetrieb einen Fahrerwechsel. Wie müssen Sie sich in Bezug auf das digitale Kontrollgerät verhalten?",
-        answers: ["Ich wechsle nur den Sitzplatz, die Fahrerkarten werden nicht umgesteckt", "Die Fahrerkarte des jeweiligen Lenkers muss im Kartenschacht 1 stecken, jene des", "Beifahrers im Kartenschacht 2", "Die Fahrerkarte des Beifahrers wird nicht gesteckt, sondern nur mitgeführt"],
+        answers: ["Ich wechsle nur den Sitzplatz, die Fahrerkarten werden nicht umgesteckt", "Die Fahrerkarte des jeweiligen Lenkers muss im Kartenschacht 1 stecken, jene des Beifahrers im Kartenschacht 2", "Die Fahrerkarte des Beifahrers wird nicht gesteckt, sondern nur mitgeführt" , " Die Fahrerkarte des jeweiligen Lenkers muss im Kartenschacht 2 stecken, jene des Beifahrers im Kartenschacht 1"],
         correct: 1
     },
     {
@@ -583,12 +583,12 @@ export const questions = [
     },
     {
         question: "Was müssen Sie am digitalen Kontrollgerät beachten, wenn Sie nach 4 Stunden und 30 Minuten Lenkzeit eine Pause einlegen?",
-        answers: ["Ich muss gleich nach dem Abstellen des Fahrzeuges meine Aktivität auf das Symbol", "\"Ruhezeit\" umstellen", "Ich muss gleich nach dem Abstellen des Fahrzeuges meine Aktivität auf das Symbol", "\"Andere Arbeitszeit\" umstellen"],
+        answers: ["Ich muss gleich nach dem Abstellen des Fahrzeuges meine Aktivität auf das Symbol \"Ruhezeit\" umstellen", "Ich muss gleich nach dem Abstellen des Fahrzeuges meine Aktivität auf das Symbol \"Andere Arbeitszeit\" umstellen" , " Ich muss gleich nach dem Abstellen des Fahrzeuges meine Fahrerkarte aus dem Gerät entnehmen"],
         correct: 0
     },
     {
         question: "Sie lenken ein Fahrzeug auf einer Autobahn. Sie planen, in den nächsten 15 Minuten einen Rastplatz anzufahren, weil eine Lenkpause fällig ist. Plötzlich müssen Sie wegen eines Verkehrsunfalles anhalten. Wie gehen Sie weiter vor?",
-        answers: ["Ich lenke das Fahrzeug auf den Pannenstreifen, sichere ihn ab und halte die Lenkpause", "dort. Andernfalls würde ich die zulässigen Lenkzeiten überschreiten", "Ich warte ab, bis die Weiterfahrt möglich ist, und halte die Lenkpause danach auf dem", "nächsten Rastplatz. Ich muss anschließend einen manuellen Ausdruck anfertigen und den"],
+        answers: ["Ich lenke das Fahrzeug auf den Pannenstreifen, sichere ihn ab und halte die Lenkpause dort. Andernfalls würde ich die zulässigen Lenkzeiten überschreiten", "Ich warte ab, bis die Weiterfahrt möglich ist, und halte die Lenkpause danach auf dem nächsten Rastplatz. Ich muss anschließend einen manuellen Ausdruck anfertigen und den Grund dieser Lenkzeitüberschreitung dokumentieren. Ich nutze damit die sogenannte Halteplatzregel", " Ich nutze die nächstmögliche Betriebsabfahrt der Straßenmeisterei und halte die Lenkpause dort. Andernfalls würde ich die zulässigen Lenkzeiten überschreiten ", "  Ich lenke in die Rettungsgasse, sichere das Fahrzeug ab und halte die Lenkpause dort. Andernfalls würde ich die zulässigen Lenkzeiten überschreiten"],
         correct: 1
     },
     {
@@ -598,7 +598,7 @@ export const questions = [
     },
     {
         question: "Sie benutzen mit Ihrem Fahrzeug ein Fährschiff oder die Rollende Landstraße. Unter welchen Bedingungen gilt die dort verbrachte Zeit als tägliche Ruhezeit?",
-        answers: ["Wenn auf dem Fährschiff eine Schlafkabine oder im Waggon ein Liegeplatz zur Verfügung", "steht", "Wenn der Waggon lärmarm zertifiziert ist", "Wenn das Fährschiff klimatisiert ist"],
+        answers: ["Wenn auf dem Fährschiff eine Schlafkabine oder im Waggon ein Liegeplatz zur Verfügung steht", "Wenn der Waggon lärmarm zertifiziert ist", "Wenn das Fährschiff klimatisiert ist", " Wenn der Waggon klimatisiert ist"],
         correct: 0
     },
     {
@@ -618,7 +618,7 @@ export const questions = [
     },
     {
         question: "Sie lenken ein Fahrzeug 4,5 Stunden lang. Kann die notwendige Lenkpause von 45 Minuten auch geteilt werden?",
-        answers: ["Ja. Teil 1 muss mindestens 15 Minuten, Teil 2 mindestens 30 Minuten lang dauern", "Ja. Jede beliebige Aufteilung ist zulässig, solang nach 4,5 Stunden Lenkzeit 45 Minuten", "Ja. Jede beliebige Aufteilung ist zulässig, solang nach 4,5 Stunden Lenkzeit 45 Minuten Lenkpause gehalten werden", "Nein"],
+        answers: ["Ja. Teil 1 muss mindestens 15 Minuten, Teil 2 mindestens 30 Minuten lang dauern", "Ja. Jede beliebige Aufteilung ist zulässig, solang nach 4,5 Stunden Lenkzeit 45 Minuten", "Ja. Jede beliebige Aufteilung ist zulässig, solang nach 4,5 Stunden Lenkzeit 45 Minuten Lenkpause gehalten werden", "Nein", " Ja. Wenn Teil 1 mindestens 25 Minuten gedauert hat, genügen für Teil 2 20 Minuten"],
         correct: 0
     },
     {
@@ -658,12 +658,12 @@ export const questions = [
     },
     {
         question: "Wann muss grundsätzlich eine wöchentliche Ruhezeit gehalten werden?",
-        answers: ["Auf jeden Fall am Wochenende", "Auf jeden Fall am Sonntag", "Spätestens am Ende von sechs 24-Stunden-Zeiträumen nach Ende der letzten", "wöchentlichen Ruhezeit"],
+        answers: ["Auf jeden Fall am Wochenende", "Auf jeden Fall am Sonntag", "Spätestens am Ende von sechs 24-Stunden-Zeiträumen nach Ende der letzten wöchentlichen Ruhezeit", " Auf jeden Fall am Samstag"],
         correct: 2
     },
     {
         question: "Sie lenken ein Fahrzeug mit digitalem Kontrollgerät. Am Display des Kontrollgerätes blinkt die Meldung Geschwindigkeit zu hoch. Wie sollten Sie sich verhalten?",
-        answers: ["Ich suche sofort die nächste Werkstatt auf", "Ich fahre langsamer und quittiere die Meldung durch Drücken der Taste \"OK\" am", "Kontrollgerät", "Ich muss auf dem Tagesausdruck dieses Ereignis durch meine Unterschrift quittieren"],
+        answers: ["Ich suche sofort die nächste Werkstatt auf", "Ich fahre langsamer und quittiere die Meldung durch Drücken der Taste \"OK\" am Kontrollgerät", "Ich muss auf dem Tagesausdruck dieses Ereignis durch meine Unterschrift quittieren", " Ich muss die Firmenleitung innerhalb von 48 Stunden von dem Ereignis verständigen"],
         correct: 1
     },
     {
@@ -1093,11 +1093,6 @@ export const questions = [
         answers: ["Wenn ich starke Beruhigungsmittel einnehme, um sofort wieder fahren zu können", "Wenn ich nicht mit anderen über das Unfallerlebnis spreche", "Wenn ich auf den Schock Alkohol trinke", "Wenn ich mir professionelle Hilfe hole, um das Unfallerlebnis aufzuarbeiten"],
         correct: 3
     },
- 
-  
- 
-  
-  
     {
         question: "Wann verliert der Fahrerqualifizierungsnachweis seine Gültigkeit?",
         answers: ["Wenn die Lenkberechtigung entzogen worden ist", "Wenn nicht alle 3 Jahren eine Weiterbildung erfolgt", "Wenn nicht alle 5 Jahren eine Weiterbildung erfolgt", "Wenn die Grundqualifikationsprüfung nicht alle 5 Jahre neu abgelegt wird"],
@@ -1113,8 +1108,16 @@ export const questions = [
         answers: ["Es müssen mindestens 35 Stunden innerhalb von 3 Jahren nachgewiesen werden", "Es müssen mindestens 35 Stunden innerhalb von 5 Jahren nachgewiesen werden", "Es dürfen höchstens 25 Stunden innerhalb von 2 Jahren nachgewiesen werden", "Es dürfen höchstens 30 Stunden innerhalb von 4 Jahren nachgewiesen werden"],
         correct: 1
     },
-  
- 
+    {
+        question: "Wo kann in Österreich eine rechtsgültige Weiterbildung für die Verlängerung des Fahrerqualifizierungsnachweises absolviert werden?",
+        answers: ["Bei einer ermächtigten Ausbildungsstätte", "Bei jeder Person, die in ihrem Führerschein den Code \"95\" eingetragen hat", "Bei jedem Güterbeförderungsunternehmen, das mehr als 5 LKW betreibt", "Bei jeder Ausbildungsstätte, die Stapler- und Krankurse anbieten darf"],
+        correct: 2
+    },
+    {
+        question: "Für welche Transporte sind neben dem Fahrerqualifizierungsnachweis Zusatzqualifikationen notwendig?",
+        answers: ["Gefahrguttransporte sowie Transporte von Lebendtieren auf Langstrecken", "Schwerlasttransporte", "Temperaturgeführte Transporte", "Autotransporte"],
+        correct: 0
+    },
     {
         question: "Der Fahrerqualifizierungsnachweis verliert seine Gültigkeit, wenn...",
         answers: ["die Lenkerberechtigung entzogen wird", "innerhalb von 3 Jahren keine Weiterbildung erfolgt", "innerhalb von 5 Jahren keine Weiterbildung erfolgt        ", "die Grundqualifikationsprüfung nicht alle 5 Jahre wiederholt wird"],
@@ -1126,7 +1129,11 @@ export const questions = [
         answers: ["3 Jahre", "4 Jahre", "5 Jahre", "6 Jahre"],
         correct: 2
     },
-
+    {
+        question: " Wie ist die Dauer der Weiterbildung für die Verlängerung des  Fahrerqualifizierungsnachweises geregelt?",
+        answers: ["Es müssen mindestens 35 Stunden innerhalb von 3 Jahren nachgewiesen werden", "Es müssen mindestens 35 Stunden innerhalb von 5 Jahren nachgewiesen werden", "Es dürfen höchstens 25 Stunden innerhalb von 2 Jahren nachgewiesen werden", "Es dürfen höchstens 30 Stunden innerhalb von 4 Jahren nachgewiesen werden"],
+        correct: 1
+    },
     {
         question: "Wo kann in Österreich eine rechtsgültige Weiterbildung für die Verlängerung des  Fahrerqualifizierungsnachweises absolviert werden?",
         answers: ["Bei einer ermächtigten Ausbildungsstätte", "Bei jeder Person, die in ihrem Führerschein den Code \"95\" eingetragen hat", "Bei jedem Omnibusunternehmen, das mehr als 5 Omnibusse betreibt", "Bei jeder Ausbildungsstätte, die Stapler- und Krankurse anbieten darf"],
