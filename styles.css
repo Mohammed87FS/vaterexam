@@ -95,9 +95,12 @@ body {
 }
 
 .answers-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+  
+    text-align: center; /* Aligns the text inside the container to the center */
+    width: 100%; /* Ensures the container takes the full width of its parent */
+    display: flex; /* Enables the use of Flexbox for its children */
+    justify-content: center; /* Centers the flex items on the main axis (horizontally) */
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -105,9 +108,11 @@ body {
     padding: 5px;
     border: 1px solid var(--border-color);
     border-radius: 5px;
-    cursor: pointer;
+    
     transition: background-color 0.3s ease;
     font-weight: 500;
+    justify-content: center;
+    
 }
 
 .btn {
