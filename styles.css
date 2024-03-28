@@ -19,7 +19,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-size: medium; /* Default font size for mobile */
+    font-size: large; /* Default font size for mobile */
     color: var(--text-color);
 }
 
