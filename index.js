@@ -32,9 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answerElement.textContent = currentQuestion.answer; // Assuming 'answer' is the property name in your objects
         answersElement.appendChild(answerElement);
 
-        // Manage button visibility
-        prevQuestionButton.style.display = currentQuestionIndex > 0 ? 'block' : 'none';
-        nextQuestionButton.style.display = currentQuestionIndex < questionsAndAnswers.length - 1 ? 'block' : 'none';
+
     }
 
     prevQuestionButton.addEventListener('click', () => {
