@@ -1,4 +1,3 @@
-
 const questionsAndAnswers = [
   {
     question: `1)	In welchem Drehzahlbereich des Motors fährt man mit den besten Verbrauchswerten?`,
@@ -936,24 +935,27 @@ const questionsAndAnswers = [
   },
   {
     question: `195)	Bei langen Fahrzeiten ohne Flüssigkeitszufuhr und mit starrer Beinhaltung besteht die
-        Gefahr...
-          eines Blutgerinnsels in den Beinvenen.
-
-196)	Andauernde, laute Radiomusik beim Lenken eines Fahrzeuges...
-         vermindert die Konzentrationsfähigkeit.
-
-197)	Beim Lenken eines Fahrzeuges soll ich...
-          meine Sitzhaltung und Sitzposition möglichst häufig verändern z.B. leicht nach vorn beugen, zurücklehnen.
-
-198)	Bei durchgetretenem Brems- oder Kupplungspedal...
-         sollen die Beine leicht angewinkelt sein.
-
-
-199)	Wirbelsäulenerkrankungen und Rückenschmerzen...
-          kommen bei Berufskraftfahrern häufig vor.
-
-
-200)	Was führt zu verbessertem Schlafverhalten?`,
+        Gefahr...?`,
+    answer: `eines Blutgerinnsels in den Beinvenen.`
+  },
+  {
+    question: `196)	Andauernde, laute Radiomusik beim Lenken eines Fahrzeuges...?`,
+    answer: `vermindert die Konzentrationsfähigkeit.`
+  },
+  {
+    question: `197)	Beim Lenken eines Fahrzeuges soll ich...?`,
+    answer: `meine Sitzhaltung und Sitzposition möglichst häufig verändern z.B. leicht nach vorn beugen, zurücklehnen.`
+  },
+  {
+    question: `198)	Bei durchgetretenem Brems- oder Kupplungspedal...?`,
+    answer: `sollen die Beine leicht angewinkelt sein.`
+  },
+  {
+    question: `199)	Wirbelsäulenerkrankungen und Rückenschmerzen...?`,
+    answer: `kommen bei Berufskraftfahrern häufig vor.`
+  },
+  {
+    question: `200)	Was führt zu verbessertem Schlafverhalten?`,
     answer: `Wenn ich vor dem Schlafengehen Entspannungstechniken anwende.`
   },
   {
@@ -965,11 +967,11 @@ const questionsAndAnswers = [
     answer: `Wasser oder ungezuckerten Kräuter- oder Früchtetee (2 - 3 Liter).`
   },
   {
-    question: `203)	Eine gute körperliche Kondition…
-          steigert die geistige Leistungsfähigkeit und Konzentrationsfähigkeit beim Autofahren.
-
-
-204)	Die Tageszeit beeinflusst die Leistungsfähigkeit eines Menschen. Wann ist die
+    question: `203)	Eine gute körperliche Kondition…?`,
+    answer: `steigert die geistige Leistungsfähigkeit und Konzentrationsfähigkeit beim Autofahren.`
+  },
+  {
+    question: `204)	Die Tageszeit beeinflusst die Leistungsfähigkeit eines Menschen. Wann ist die
         Leistungsfähigkeit normalerweise am geringsten?`,
     answer: `Zwischen 2 und 4 Uhr.`
   },
@@ -984,12 +986,12 @@ const questionsAndAnswers = [
   },
   {
     question: `207)	Trifft diese Aussage zu: "Beim Lenken eines Nutzfahrzeuges kann die Herzfrequenz auf 140-
-        160 Schläge pro Minute steigen."
-           Ja, diese Aussage ist richtig und darüber hinaus führt eine ständig zu hohe Herzfrequenz zu
-           psychischem Stress und kann krank machen.
-
-
-208)	Wie hoch ist die durchschnittliche Herzfrequenz eines Menschen im Ruhezustand?`,
+        160 Schläge pro Minute steigen."?`,
+    answer: `Ja, diese Aussage ist richtig und darüber hinaus führt eine ständig zu hohe Herzfrequenz zu
+           psychischem Stress und kann krank machen.`
+  },
+  {
+    question: `208)	Wie hoch ist die durchschnittliche Herzfrequenz eines Menschen im Ruhezustand?`,
     answer: `60 - 80 Schläge in der Minute.`
   },
   {
@@ -1077,10 +1079,11 @@ const questionsAndAnswers = [
     answer: `Die Zulassungsbescheinigung des Omnibusses.`
   },
   {
-    question: `227)	Der Fahrerqualifizierungsnachweis verliert seine Gültigkeit, wenn...
-          innerhalb von 5 Jahren keine Weiterbildung erfolgt.
-
-228)	Wie lang ist ein Fahrerqualifizierungsnachweis gültig?`,
+    question: `227)	Der Fahrerqualifizierungsnachweis verliert seine Gültigkeit, wenn...?`,
+    answer: `innerhalb von 5 Jahren keine Weiterbildung erfolgt.`
+  },
+  {
+    question: `228)	Wie lang ist ein Fahrerqualifizierungsnachweis gültig?`,
     answer: `5 Jahre.`
   },
   {
